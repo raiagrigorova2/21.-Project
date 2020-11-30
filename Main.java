@@ -3,19 +3,16 @@ package Project_21;
 public class Main {
     
     public static void main(String[] args) {
-		/*
-		 * Разгледайте качения проект. Открийте къде и как се използват абстрактни
-		 * класове и полиморфизъм.
-		 */
-    	// Abstract са класовете Product и Electronics, като Electronics е наследник на Product
-    	// Product има метод public abstract double computeSalePrice(), който е имплементилан 
-    	//в наследниците на Product и Electronics. Създава се масив Product[], 
-    	//за който по-късно се създават инстанции. (не може да се създаде инстанция на абстрактен клас)
+	    
+    	// Abstract СЃР° РєР»Р°СЃРѕРІРµС‚Рµ Product Рё Electronics, РєР°С‚Рѕ Electronics Рµ РЅР°СЃР»РµРґРЅРёРє РЅР° Product
+    	// Product РёРјР° РјРµС‚РѕРґ public abstract double computeSalePrice(), РєРѕР№С‚Рѕ Рµ РёРјРїР»РµРјРµРЅС‚РёР»Р°РЅ 
+    	//РІ РЅР°СЃР»РµРґРЅРёС†РёС‚Рµ РЅР° Product Рё Electronics. РЎСЉР·РґР°РІР° СЃРµ РјР°СЃРёРІ Product[], 
+    	//Р·Р° РєРѕР№С‚Рѕ РїРѕ-РєСЉСЃРЅРѕ СЃРµ СЃСЉР·РґР°РІР°С‚ РёРЅСЃС‚Р°РЅС†РёРё. (РЅРµ РјРѕР¶Рµ РґР° СЃРµ СЃСЉР·РґР°РґРµ РёРЅСЃС‚Р°РЅС†РёСЏ РЅР° Р°Р±СЃС‚СЂР°РєС‚РµРЅ РєР»Р°СЃ)
     	
-    	//Пример за полиморфизъм е масивът Product[], от който се създават инстанции на 
-    	//субкласовете на Product, и override-ването на double computeSalePrice() от всеки клас без абстрактните. 
-
+    	//РџСЂРёРјРµСЂ Р·Р° РїРѕР»РёРјРѕСЂС„РёР·СЉРј Рµ override-РІР°РЅРµС‚Рѕ РЅР° double computeSalePrice() РѕС‚ РІСЃРµРєРё РєР»Р°СЃ Р±РµР· Р°Р±СЃС‚СЂР°РєС‚РЅРёС‚Рµ.(runtime РїРѕР»РёРјРѕСЂС„РёР·СЉРј)
+	    
         // Declare and create Product array of size 5
+	    
         Product[] pa = new Product[7];
         
         // Create object instances and assign them to
